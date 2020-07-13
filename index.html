@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left-info">
+        <div class="rgb-title">
+          <h4>RGB</h4>
+        </div>
+
+        <div class="rgb-input-form">
+          <div class="form-inline">
+            <span>R:</span>
+            <input
+              class="r-input"
+              type="number"
+              placeholder="input 0-255"
+              max="255"
+              min="0"
+              style="width: 120px;"
+            />
+            <div
+              class="r-box"
+              style="
+                width: 20px;
+                height: 20px;
+                background: #ff0000;
+                border: 1px solid #888888;
+              "
+            ></div>
+          </div>
+          <div class="form-inline">
+            <span>G:</span>
+            <input
+              class="g-input"
+              type="number"
+              placeholder="input 0-255"
+              max="255"
+              min="0"
+              style="width: 120px;"
+            />
+            <div
+              class="g-box"
+              style="
+                width: 20px;
+                height: 20px;
+                background: #00ff00;
+                border: 1px solid #888888;
+              "
+            ></div>
+          </div>
+          <div class="form-inline">
+            <span>B:</span>
+            <input
+              class="b-input"
+              type="number"
+              placeholder="input 0-255"
+              max="255"
+              min="0"
+              style="width: 120px;"
+            />
+            <div
+              class="b-box"
+              style="
+                width: 20px;
+                height: 20px;
+                background: #0000ff;
+                border: 1px solid #888888;
+              "
+            ></div>
+          </div>
+          <button type="button" class="btn btn-primary">Convert</button>
+        </div>
+      </div>
+
+      <div class="right-info">
+        <div class="hex-title">
+          <h4>HEX</h4>
+        </div>
+        <div class="hex-color-code">
+          #808080
+        </div>
+        <div
+          class="hex-color-box"
+          style="
+            width: 100px;
+            height: 100px;
+            background: #808080;
+            border: 1px solid #888888;
+          "
+        ></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
