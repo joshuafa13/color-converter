@@ -1,0 +1,22 @@
+span,
+input {
+  margin-right: 10px;
+}
+
+.form-inline {
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.hex-color-code {
+  margin-bottom: 10px;
+}
