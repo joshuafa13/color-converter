@@ -1,4 +1,4 @@
-# color-converter
+# Color-converter
 This is a RGB to HEX color converter
 
 # Features
